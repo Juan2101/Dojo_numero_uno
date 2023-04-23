@@ -23,7 +23,7 @@ void loop()
   prender_apagar(5000,led_amarillo_uno,led_amarillo_dos);
 }
 ~~~
-La funcion principal llama a la funcion **prender_apagar** que recibe como parametro el tiempo que va a permanecer encendido el led (en milisegundos) y el nombre del los dos led a prender.
+La función principal llama a la funcion **prender_apagar** que recibe como parámetro el tiempo que va a permanecer encendido el led (en milisegundos) y el nombre de los dos led a prender.
 ~~~c++
 void prender_apagar(long ms,int led_uno,int led_dos)
 {
@@ -35,7 +35,7 @@ void prender_apagar(long ms,int led_uno,int led_dos)
   delay(100);
 }
 ~~~
-Esta a su vez llama a la funcion **determinar_si_suena** que recibe el tiempo que va a estar sonando y analiza si el buzzer va a sonar dependiendo del led pasado por parametro.
+Esta a su vez llama a la función **determinar_si_suena** que recibe el tiempo que va a estar sonando y analiza si el buzzer va a sonar dependiendo del led pasado por párametro.
 ~~~c++
 void determinar_si_suena(int led, long ms)
 {
@@ -53,7 +53,7 @@ void determinar_si_suena(int led, long ms)
   }
 }
 ~~~
-Si el led que recibe debe sonar esta manda a la funcion **sonar** que recibe los Hercios, la frecuencia con la que va a sonar y por cuanto tiempo va a sonar. Por el contrario si no va a solar solo espera el tiempo que debe estar prendido
+Si el led que recibe debe sonar, esta manda a la función **sonar** que recibe los Hercios, la frecuencia con la que va a sonar y por cuanto tiempo va a sonar. Por el contrario, si no va a sonar solo espera el tiempo que debe estar encendido.
 ~~~c++
 void sonar(int hz,int frecuencia,int ms)
 {
@@ -64,7 +64,7 @@ void sonar(int hz,int frecuencia,int ms)
   }
 }
 ~~~
-Esta funcion va usar la funcion **tone** para activar el buzzer durante el tiempo que se paso por parametro
+Esta función va usar la función **tone** para activar el buzzer durante el tiempo que se paso por parámetro.
 ## Link al proyecto
 * [Proyecto](https://www.tinkercad.com/things/dH1PiQ4Je0t-tp1/editel?sharecode=0cxTDm9FAhAheCiUiBmaWy3TxTJCfUFdySkuUyj5Yv4)
 ---
