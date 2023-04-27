@@ -10,6 +10,9 @@
 ---
 ![(img-proyecto)](img/Dojo_numero_uno.png)
 ## Descripción
+El proyecto consiste en la elaboración de un semáforo que también ayuda a las personas no videntes.
+Dependiendo del color de la luz (verde, amarilla o roja) el semáforo generara un sonido con un tiempo determinado para cada color de led.
+Durante los 45 segundos en los que los LEDs verdes están encendidos no se emitirá ningún sonido, cuando sean amarillos, en 5 segundos un buzzer generara un sonido 1 vez cada 2 segundos en un tono suave, y cuando sean rojas, durante 30 segundos sonara el buzzer, antes mencionado, 1 vez por segundo en un tono fuerte.
 ---
 
 ## Función principal
